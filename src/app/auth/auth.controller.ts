@@ -8,7 +8,7 @@ import {
   Param,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { JwtGuard, JwtGuardRefreshToken } from './auth.guard';
+import { JwtGuard, JwtGuardRefreshToken } from '../../config/jwt-guard.config';
 
 import {
   MessagePattern,

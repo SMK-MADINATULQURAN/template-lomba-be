@@ -15,7 +15,7 @@ import { diskStorage } from 'multer';
 import { ResponseSuccess } from 'src/interface/response';
 
 import * as fs from 'fs';
-import { JwtGuard } from '../auth/auth.guard';
+import { JwtGuard } from '../../config/jwt-guard.config';
 import BaseResponse from 'src/utils/response/base.response';
 
 

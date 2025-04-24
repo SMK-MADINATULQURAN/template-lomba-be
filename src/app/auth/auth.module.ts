@@ -4,8 +4,8 @@ import { AuthService } from './auth.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './auth.entity';
 import { JwtModule } from '@nestjs/jwt';
-import { JwtAccessTokenStrategy } from './jwtAccessToken.strategy';
-import { JwtRefreshTokenStrategy } from './jwtRefreshToken.strategy';
+import { JwtAccessTokenStrategy } from '../../config/jwt-access.config';
+import { JwtRefreshTokenStrategy } from '../../config/jwt-refresh.config';
 
 @Module({
   imports: [
