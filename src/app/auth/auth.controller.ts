@@ -17,8 +17,14 @@ import {
   KafkaContext,
 } from '@nestjs/microservices';
 
+UseGuards
 @Controller('auth')
 export class AuthController {
   constructor(private authService: AuthService) {}
+
+  @Post("login")
+  async login(){
+    return "ok"
+  }
  
 }

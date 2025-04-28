@@ -19,7 +19,7 @@ import { JwtGuard } from '../../config/jwt-guard.config';
 import BaseResponse from 'src/utils/response/base.response';
 
 
-@UseGuards(JwtGuard)
+// @UseGuards(JwtGuard)
 @Controller('upload')
 export class UploadController extends BaseResponse {
   constructor()  {
