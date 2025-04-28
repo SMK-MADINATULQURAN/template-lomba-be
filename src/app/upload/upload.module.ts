@@ -3,7 +3,6 @@ import { UploadController } from './upload.controller';
 
 
 @Module({
-  // imports:[CloudinaryService],
   controllers: [UploadController],
 })
 export class UploadModule {}
